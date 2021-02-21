@@ -1,14 +1,16 @@
 
-#WPFを覚えるために作ったサンプルプログラム
+# WPFサンプルプログラム
 
-初めて作ったWPFサンプル
+WPFを覚えるために初めて作ったWPFサンプル
+
 
 ## 使用したパッケージ
-* WPF
-* Prism
+
+* Prism(unity)
 * ReactiveProperty
 * TweetinviAPI
 * Emoji.Wpf
+  
 
 
 ## 機能

@@ -1,4 +1,5 @@
 ﻿using Prism.Ioc;
+using PriTrigger.Model;
 using PriTrigger.Views;
 using System.Windows;
 
@@ -16,7 +17,7 @@ namespace PriTrigger
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
-
+            containerRegistry.RegisterSingleton<ITwitterAgent, TwitterAgent>();
         }
     }
 }
